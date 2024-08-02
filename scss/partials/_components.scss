@@ -1,0 +1,19 @@
+// _components.scss
+.btn-primary {
+    background-color: $primary-color;
+    border-color: $primary-color;
+
+    &:hover {
+        background-color: $primary-color-light;
+        border-color: $primary-color-light;
+    }
+}
+
+.card {
+    border: none;
+    @include transition(transform, 0.3s);
+    
+    &:hover {
+        transform: translateY(-5px);
+    }
+}

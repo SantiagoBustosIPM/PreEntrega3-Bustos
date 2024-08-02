@@ -1,0 +1,27 @@
+// _layout.scss
+.navbar {
+    border-bottom: 3px solid $primary-color;
+    
+    .navbar-brand {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .navbar-nav {
+        .nav-link {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #fff;
+            margin-right: 10px;
+            
+            &:hover {
+                color: $primary-color;
+            }
+        }
+    }
+}
+
+footer.footer {
+    background-color: $dark-color;
+    color: #fff;
+}
